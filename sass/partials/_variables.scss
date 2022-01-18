@@ -1,0 +1,12 @@
+$font-primary: "open sans", sans-serif;
+$font-headings: "montserrat", sans-serif;
+
+$colours: (
+  primary: #059f81,
+  orange: #e28413,
+  gray: #f2f2f2,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
